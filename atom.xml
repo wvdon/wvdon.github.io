@@ -63,6 +63,28 @@
   </entry>
   
   <entry>
+    <title>先做好一件事，才能做好更多事</title>
+    <link href="http://wvdon.com/2020/06/05/%E5%85%88%E5%81%9A%E5%A5%BD%E4%B8%80%E4%BB%B6%E4%BA%8B%EF%BC%8C%E6%89%8D%E8%83%BD%E5%81%9A%E5%A5%BD%E6%9B%B4%E5%A4%9A%E4%BA%8B/"/>
+    <id>http://wvdon.com/2020/06/05/先做好一件事，才能做好更多事/</id>
+    <published>2020-06-05T04:40:00.000Z</published>
+    <updated>2021-01-10T06:07:52.473Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>——用十年的沉淀，成为一名业界优秀的软件工程师</em></p><p><strong>先引用之前与久哥的对话（百度T9架构师）：</strong></p><blockquote><p>他问，“如果让你用10年的时间学习数据库，你能不能成为这个领域的专家？”<br>我说，“应该可以吧”<br>他说，“你现在20，10年后也才30，30岁就能成为某个领域的专家，为什么不去做呢？你看看周围有多少30岁的人还一事无成，而那个时候的你已经是数据库的专家了。”</p></blockquote><a id="more"></a><h3 id="职业方向："><a href="#职业方向：" class="headerlink" title="职业方向："></a>职业方向：</h3><p><strong>软件开发工程师-数据挖掘/存储/计算/分布式方向</strong></p><h3 id="人生宗旨："><a href="#人生宗旨：" class="headerlink" title="人生宗旨："></a>人生宗旨：</h3><p><strong>挣钱，挣钱，挣钱（生活中90%的烦恼都是可以用花钱解决的）</strong></p><h3 id="技术宗旨："><a href="#技术宗旨：" class="headerlink" title="技术宗旨："></a>技术宗旨：</h3><p>职业的发展并不只是需要技术栈的学习，当我进入到职场时需要面临的更多的是帮助公司如果实现盈利或拓展业务，而这则从我的职业思考中进行展开（如图）：<br><img src="https://img-blog.csdnimg.cn/20200605201735728.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1dlRG9uX3Q=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><h4 id="知识："><a href="#知识：" class="headerlink" title="知识："></a>知识：</h4><p>知识是我能进入到职场进行生存的基石，比如我对 machine learning 和计算机相关知识和理论的储备</p><h4 id="工具："><a href="#工具：" class="headerlink" title="工具："></a>工具：</h4><p>人是会制造并且使用工具的高等动物，良好的工具能帮我高效率的解决当下问题。例如spark、Pytorch、xgboost等</p><h4 id="逻辑："><a href="#逻辑：" class="headerlink" title="逻辑："></a>逻辑：</h4><p>能够把握模型直接的逻辑性，并且提高解决问题和思维发散的能力。 </p><h4 id="业务："><a href="#业务：" class="headerlink" title="业务："></a>业务：</h4><p>业务是一个公司的现金流，可以让技术更好的切合业务模型。比如展示广告和搜索广告在构建模型时的区别联系，如何根据公司的 business model 制定模型的 objective</p><h3 id="十年规划"><a href="#十年规划" class="headerlink" title="十年规划"></a>十年规划</h3><h4 id="1-3年：¬¬"><a href="#1-3年：¬¬" class="headerlink" title="1-3年：¬¬"></a>1-3年：¬¬</h4><ol><li>技术上持续精进</li><li>提高学历</li><li>提高语言交流与阅读能力</li><li>提高自我认知</li><li>自律</li><li>断舍离<h4 id="3-7年："><a href="#3-7年：" class="headerlink" title="3-7年："></a>3-7年：</h4></li><li>技术深度</li><li>提高职场能力</li><li>把握系统架构</li><li>基金股票</li><li>注重积累<h4 id="7-10年："><a href="#7-10年：" class="headerlink" title="7-10年："></a>7-10年：</h4></li><li>技术广度¬¬</li><li>提高业务与管理能力</li><li>投资理财</li><li>身体健康</li></ol><p>==十年很短，你可不要太当真哦，所以我想用十年的沉淀，去成为一名业界优秀的软件工程师。==<br>                                                                                                                by wvdon  2020年06月05日</p>]]></content>
+    
+    <summary type="html">
+    
+      When I was just a little girl, I asked my mother, &quot;What will I be? Will I be pretty? Will I be rich?&quot; Here&#39;s what she said to me：&quot;Que sera, sera, Whatever will be, will be; The future&#39;s not ours to see.&quot;
+    
+    </summary>
+    
+      <category term="plan" scheme="http://wvdon.com/categories/plan/"/>
+    
+    
+      <category term="work" scheme="http://wvdon.com/tags/work/"/>
+    
+  </entry>
+  
+  <entry>
     <title>数据挖掘上分思路</title>
     <link href="http://wvdon.com/2020/03/20/%E6%AF%94%E8%B5%9B%E6%80%9D%E8%B7%AF-%E9%98%85%E8%AF%BB/"/>
     <id>http://wvdon.com/2020/03/20/比赛思路-阅读/</id>
@@ -142,6 +164,28 @@
       <category term="nlp" scheme="http://wvdon.com/tags/nlp/"/>
     
       <category term="特征处理" scheme="http://wvdon.com/tags/%E7%89%B9%E5%BE%81%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sklearn-记录</title>
+    <link href="http://wvdon.com/2019/12/27/sklearn%E5%AD%A6%E4%B9%A0%E4%BB%A3%E7%A0%81-%E4%BB%A5%E5%85%8D%E5%BF%98%E4%BA%86/"/>
+    <id>http://wvdon.com/2019/12/27/sklearn学习代码-以免忘了/</id>
+    <published>2019-12-27T12:12:51.000Z</published>
+    <updated>2021-01-10T06:22:45.619Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="数据包"><a href="#数据包" class="headerlink" title="数据包"></a>数据包</h2><h3 id="sklearn-datasets"><a href="#sklearn-datasets" class="headerlink" title="sklearn datasets"></a>sklearn datasets</h3><p>提供一些导入，在线下载及本地生成数据集的方法。</p><blockquote><p>sklearn.datasets模块主要提供了一些导入、在线下载及本地生成数据集的方法，可以通过dir或help命令查看，我们会发现主要有三种形式：load_<dataset_name>、fetch_<dataset_name>及make_<dataset_name>的方法</dataset_name></dataset_name></dataset_name></p></blockquote><a id="more"></a><h3 id="train-test-split"><a href="#train-test-split" class="headerlink" title="train_test_split"></a>train_test_split</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_splitX_train,X_test,y_train,y_test = train_test_split(X,y,random_state = <span class="number">2003</span>)</span><br></pre></td></tr></table></figure><h3 id="线性模型"><a href="#线性模型" class="headerlink" title="线性模型"></a>线性模型</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn <span class="keyword">import</span> datasets, linear_model <span class="comment"># 引用 sklearn库，主要为了使用其中的线性回归模块</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建数据集，把数据写入到numpy数组</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  <span class="comment"># 引用numpy库，主要用来做科学计算</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt   <span class="comment"># 引用matplotlib库，主要用来画图</span></span><br><span class="line">data = np.array([[<span class="number">152</span>,<span class="number">51</span>],[<span class="number">156</span>,<span class="number">53</span>],[<span class="number">160</span>,<span class="number">54</span>],[<span class="number">164</span>,<span class="number">55</span>],</span><br><span class="line">                 [<span class="number">168</span>,<span class="number">57</span>],[<span class="number">172</span>,<span class="number">60</span>],[<span class="number">176</span>,<span class="number">62</span>],[<span class="number">180</span>,<span class="number">65</span>],</span><br><span class="line">                 [<span class="number">184</span>,<span class="number">69</span>],[<span class="number">188</span>,<span class="number">72</span>]])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 打印出数组的大小</span></span><br><span class="line">print(data.shape)</span><br><span class="line">x = data[:,<span class="number">0</span>].reshape(<span class="number">-1</span>,<span class="number">1</span>)</span><br><span class="line">y  = data[:,<span class="number">1</span>]</span><br><span class="line"><span class="comment"># TODO 1. 实例化一个线性回归的模型</span></span><br><span class="line">regr = linear_model.LinearRegression()</span><br><span class="line"><span class="comment"># TODO 2. 在x,y上训练一个线性回归模型。 如果训练顺利，则regr会存储训练完成之后的结果模型</span></span><br><span class="line"><span class="comment"># TODO 3. 画出身高与体重之间的关系</span></span><br><span class="line">regr.fit(x,y)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画出已训练</span></span><br><span class="line">plt.plot(x, regr.predict(x), color=<span class="string">'blue'</span>)<span class="comment"># 画x,y轴的标题</span></span><br><span class="line">plt.xlabel(<span class="string">'height (cm)'</span>)</span><br><span class="line">plt.ylabel(<span class="string">'weight (kg)'</span>)</span><br><span class="line">plt.show() <span class="comment"># 展示</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 利用已经训练好的模型去预测身高为163的人的体重</span></span><br><span class="line"><span class="keyword">print</span> (<span class="string">"Standard weight for person with 163 is %.2f"</span>% regr.predict([[<span class="number">163</span>]]))</span><br></pre></td></tr></table></figure><h3 id="KNN"><a href="#KNN" class="headerlink" title="KNN"></a>KNN</h3><p>模型的泛化能力:它在新的环境中的适应能力</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.neighbors <span class="keyword">import</span> KNeighborsClassifierclf = KNeighborsClassifier(n_neighbors=<span class="number">3</span>)clf.fit(X_train,y_train)correct = np.count_nonzero((clf.predict(X_test)==y_test==<span class="literal">True</span>)print(<span class="string">"auc is：%3.f"</span>%(corrrect/len(X_test))</span><br></pre></td></tr></table></figure><h3 id="交叉验证"><a href="#交叉验证" class="headerlink" title="交叉验证"></a>交叉验证</h3><p>把数据集分为训练集和测试集</p><blockquote><p>常用的交叉验证技术叫做K折交叉验证(K-fold Cross Validation)。 我们先把训练数据再分成训练集和验证集，之后使用训练集来训练模型，然后再验证集上评估模型的准确率。举个例子，比如一个模型有个参数叫\alphaα，我们一开始不清楚要选择0.1还是1，所以这时候我们进行了交叉验证：把所有训练集分成K块，依次对每一个\alphaα值评估它的准确率。下面的动画讲述了如何使用K折交叉验证选出最合适的参数值。  </p></blockquote><blockquote><p>leave_one_out交叉验证，也就是每次只把一个样本当做验证数据，剩下的其他数据都当做是训练样本。  </p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">form sklearn.model_selection import GirdSearchCVknn = KNeighborsClassifier()clf = GirdSearchCV(knn,parameters,cv=5)clf.fit(x,y)</span><br><span class="line">clf.best_score_clf.best_params_</span><br></pre></td></tr></table></figure><ul><li>绝对不能把测试数据用在交叉验证的过程中</li></ul><h3 id="特征缩放"><a href="#特征缩放" class="headerlink" title="特征缩放"></a>特征缩放</h3><p>目的是为了：消除有些变量变化的影响</p><p>1 线性归一化（Min-max normalization）</p><p>线性归一化指的是把特征值的范围映射到[0,1]区间</p><p>x_new  = (x - min())/(max()-min())</p><p>2 标准差标准化 （Z-score Normalization）</p><p>特征值映射到均值为0，标准差为1的正态分布 x_new = (x-mean(x)/std(x)</p><p>mean(x) x 的平均值 std(x) x的标注差</p><h2 id="KNN总结："><a href="#KNN总结：" class="headerlink" title="KNN总结："></a>KNN总结：</h2><ul><li>knn 是一个及其简单的算法</li><li>算法比较适合低纬空间</li><li>KNN 在训练过程中实质上不需要做任何事情，所以训练本身不产生任何时间上的消耗。</li></ul><p>merry-based  instance -based  (实际上没有训练学习的过程)</p><ul><li>KNN预测的时候要循环所以的样本数据，复杂度依赖于样本个数，达成KNN应用在大数据的瓶颈。。</li></ul><h3 id="结构化数据与非结构化数据"><a href="#结构化数据与非结构化数据" class="headerlink" title="结构化数据与非结构化数据"></a>结构化数据与非结构化数据</h3><p>非结构化数据：简单来讲，文本、图片、声音、视频这些都属于非结构化数据，需要做进一步的处理 结构化的数据指的是存放在数据库里的年龄，身高等这种信息</p><h3 id="图像"><a href="#图像" class="headerlink" title="图像"></a>图像</h3><p>图像来说，此过程相对简单。一般可以通过Python自带的库来读取图片，并把图片数据存放在矩阵(Matrix)或者张量(Tensor)里  <strong>- 图片是由像素来构成的，比如256*256或者128*128。两个值分别代表长宽上的像素。这个值越大图片就会越清晰。另外，对于彩色的图片，一个像素点一般由三维数组来构成，分别代表的是R,G,B三种颜色。除了RGB，其实还有其他常用的色彩空间。如果使用RGB来表示每一个像素点，一个大小为128*128像素的图片实际大小为128*128*3，是一个三维张量的形式。</strong>  </p><h4 id="图片特征"><a href="#图片特征" class="headerlink" title="图片特征"></a>图片特征</h4><ul><li><p>颜色特征(color histigram)</p></li><li><p>SIFT (Scale-invariant feature transfarm)</p><p>它是一个局部的特征，它会试图去寻找图片中的拐点这类的关键点，然后再通过一系列的处理最终得到一个SIFT向量</p></li><li><p>HOG (Histogram of Oriented Grandient) </p><p>通过计算和统计图像局部区域的梯度方向直方图来构建特征.由于HOG是在图像的局部方格单元上操作，所以它对图像几何的和光学的形变都能保持很好的不变性   </p></li></ul><h4 id="降维"><a href="#降维" class="headerlink" title="降维"></a>降维</h4><ul><li><p>对于一个中小型图片，它的大小一般大于256<em>256</em>3。如果把它转换成向量，其实维度的大小已经几十万了。这会导致消耗非常大的计算资源，所以一般情况下我们都会尝试对图片做一些降维操作。其实特征提取过程我们自然地可以理解为是降维过程。</p></li><li><p>降维操作会更好地保留图片中重要的信息，同时也帮助过滤掉无用的噪声  </p></li><li><p><strong>PCA(Principal Component Analysis)</strong>， (常用的降维工具)</p></li><li><p>它是一种无监督的学习方法，可以把高维的向量映射到低维的空间里。它的核心思路是对数据做线性的变换，然后在空间里选择信息量最大的Top K维度作为新的特征值     </p></li></ul><h3 id="matplotlib-pyplot（画图，展示图片）"><a href="#matplotlib-pyplot（画图，展示图片）" class="headerlink" title="matplotlib.pyplot（画图，展示图片）"></a>matplotlib.pyplot（画图，展示图片）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import matplotlib.pyplot as plt# 读取图片img = plt.imread(&apos;&apos;)print(img.shape)plt.imshow(im445555555555555g)</span><br></pre></td></tr></table></figure><h3 id="缺失值次5"><a href="#缺失值次5" class="headerlink" title="缺失值次5"></a>缺失值次5</h3><p>删除缺失的行 或者缺失的列</p><p>填补缺失值:</p><ul><li>均值，最小值，最大值，特殊值填充 ,中位值</li></ul><h3 id="特征编码"><a href="#特征编码" class="headerlink" title="特征编码"></a>特征编码</h3><p>把非数值型数据转为数值型</p><p><strong>数据独热编码(one-hot encoding)</strong> 标签编码</p><p>标签编码不能直接作为特征输入到模型中，</p><p>因为1,2,3,,,,连续的特征标签，模型是会认为这些类别是有大小关系的。</p><p>而独热编码是平行的。</p><blockquote><p>如果我们直接把类别特征看作是具体的数比如0，1，2… 那这时候，数与数之间是有大小关系的，比如2要大于1，1要大于0，而且这些大小相关的信息必然会用到模型当中  但这就跟原来特征的特点产生了矛盾，因为对于深度学习，数据分析来说它们之间并不存在所谓的“大小”，可以理解为平行关系。所以对于这类特征来说，直接用0，1，2.. 的方式来表示是存在问题的，所以结论是不能这么做。  </p></blockquote><p><strong>数值型的变量</strong> 可以当做特征直接输入，也可以进行离散化操作  </p>]]></content>
+    
+    <summary type="html">
+    
+      machinelearning
+    
+    </summary>
+    
+      <category term="tools" scheme="http://wvdon.com/categories/tools/"/>
+    
+    
+      <category term="sklearn" scheme="http://wvdon.com/tags/sklearn/"/>
     
   </entry>
   
@@ -304,7 +348,7 @@
     <link href="http://wvdon.com/2019/09/27/Hexo%E7%9A%84%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
     <id>http://wvdon.com/2019/09/27/Hexo的使用笔记/</id>
     <published>2019-09-27T15:42:57.000Z</published>
-    <updated>2021-01-10T05:37:08.340Z</updated>
+    <updated>2021-01-10T05:50:23.415Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>快速、简洁且高效的博客框架。一键部署博客到Github Pages，并原生态支持Markdown。</p></blockquote><p>文件头</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&gt; ---</span><br><span class="line">&gt; title: &apos;题目&apos;</span><br><span class="line">&gt; date: 2019-08-02 15:50:39</span><br><span class="line">&gt; tags: </span><br><span class="line">&gt;   - 1</span><br><span class="line">&gt;   - 2</span><br><span class="line">&gt;   - 3</span><br><span class="line">&gt; categories: [分类]</span><br><span class="line">&gt; mathjax: true</span><br><span class="line">&gt; description: 描述</span><br><span class="line">&gt; ---</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><a id="more"></a><blockquote></blockquote><p>备忘：</p><blockquote><p>hexo s 部署到本地</p><p>hexo g 生成静态文件</p><p>hexo d 部署到github上</p></blockquote><p>重新部署本地时</p><blockquote><p>安装node.js  url=<a href="https://nodejs.org/dist/" target="_blank" rel="noopener">https://nodejs.org/dist/</a> 。（高版本可能会出现问题）</p><p>npm安装 <code>npm install -g hexo-cli</code> </p></blockquote>]]></content>
     
@@ -318,28 +362,6 @@
     
     
       <category term="hexo" scheme="http://wvdon.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Photoshop 记录</title>
-    <link href="http://wvdon.com/2019/09/27/2019-09-27-%E9%A2%98%E7%9B%AE/"/>
-    <id>http://wvdon.com/2019/09/27/2019-09-27-题目/</id>
-    <published>2019-09-27T07:50:39.000Z</published>
-    <updated>2020-12-31T07:19:42.600Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="快捷键记录"><a href="#快捷键记录" class="headerlink" title="快捷键记录"></a>快捷键记录</h4><ul><li><p>抓手工具 可以使用 space+鼠标快速操作</p></li><li><p>ctrl+o 快速打开文件</p></li><li><p>ctrl+w 关闭文件</p></li><li><p>文件–置入嵌入对象   是直接把文件作为一个对象导入这个图中，如需要编辑的话需要格式化这个图层</p></li><li><p>ctrl+n 新建</p></li><li><p>ctrl+Shift+alt +t 重复自由变换</p></li></ul><a id="more"></a><p>#### </p>]]></content>
-    
-    <summary type="html">
-    
-      生产力工具
-    
-    </summary>
-    
-      <category term="tools" scheme="http://wvdon.com/categories/tools/"/>
-    
-    
-      <category term="ps" scheme="http://wvdon.com/tags/ps/"/>
     
   </entry>
   
@@ -438,28 +460,6 @@
       <category term="数据结构" scheme="http://wvdon.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
       <category term="数学问题" scheme="http://wvdon.com/tags/%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LaTex:排版系统</title>
-    <link href="http://wvdon.com/2019/07/19/LaTex-%E6%8E%92%E7%89%88%E7%B3%BB%E7%BB%9F/"/>
-    <id>http://wvdon.com/2019/07/19/LaTex-排版系统/</id>
-    <published>2019-07-18T16:11:41.000Z</published>
-    <updated>2020-12-31T07:19:42.601Z</updated>
-    
-    <content type="html"><![CDATA[<p>最后更新时间:2019.10.24</p><h3 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h3><p>LaTex 是一种基于ΤΕΧ的排版系统，开发之初目的利用这种格式，人们在没有程序设计与排版的情况下也能利用其强大的功能在很短的时间内完成书籍的排版。然而其对于复杂表格和数学公式的展示具有很优秀的表现，在很多文字排版系统都可以看得到LaTex的插件。<br>目前我使用LaTex的原因是，他能够帮助我在MarkDown的书写过程中快速的插入数学公式。</p><a id="more"></a><blockquote><ol><li>有些站点不支持LaTex语法的我们可以借助<a href="https://www.codecogs.com/latex/eqneditor.php" target="_blank" rel="noopener">在线 LaTeX 编辑器</a> 进行转换，然后复制为html代码插入进去</li><li>hexo的许多主题都是支持LaTex的，只需在文章头文字部分设置 mathjax: true</li></ol></blockquote><h3 id="LaTex常用语法："><a href="#LaTex常用语法：" class="headerlink" title="LaTex常用语法："></a>LaTex常用语法：</h3><p>$$<br>LaTex公式<br>$$</p><h4 id="分数表示"><a href="#分数表示" class="headerlink" title="分数表示"></a>分数表示</h4><blockquote><p>\frac{1}{2} 代表分数<br>$$<br>\frac{1}{2}<br>$$</p></blockquote><h4 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h4><blockquote><p>_{}下标  ^{} 上标</p><p>C_{n}^{m}代表<br>$$<br>C_{n}^{m}<br>$$</p></blockquote><p>求和压缩符合</p><blockquote><p>\sum_{i=0}^{n}{(x_i+y_i)}</p><p>\prod_{i=0}^{n}{x_i\cdot{y_i}}_</p><p>\lim_{x\to0}\frac{sinx}{x}_</p><p>\int_{a}^{b}{sinx}dx</p><p><a href="https://www.codecogs.com/eqnedit.php?latex=\sum{i=0}^{n}{(x_i&plus;y_i)}\" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum{i=0}^{n}{(x_i&plus;y_i)}\" title="\sum{i=0}^{n}{(x_i+y_i)}\"></a></p><p><a href="https://www.codecogs.com/eqnedit.php?latex=\prod{i=0}^{n}{x_i\cdot{y_i}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\prod{i=0}^{n}{x_i\cdot{y_i}}" title="\prod{i=0}^{n}{x_i\cdot{y_i}}"></a></p><p><a href="https://www.codecogs.com/eqnedit.php?latex=\lim{x\to0}\frac{sinx}{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\lim{x\to0}\frac{sinx}{x}" title="\lim{x\to0}\frac{sinx}{x}"></a></p><p><a href="https://www.codecogs.com/eqnedit.php?latex=\int_{a}^{b}{sinx}dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{a}^{b}{sinx}dx" title="\int_{a}^{b}{sinx}dx"></a></p></blockquote><p>根号 </p><blockquote><p> \sqrt[x]{y}</p><p><a href="https://www.codecogs.com/eqnedit.php?latex=\sqrt[x]{y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sqrt[x]{y}" title="\sqrt[x]{y}"></a></p></blockquote><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.cnblogs.com/endlesscoding/p/9797237.html" target="_blank" rel="noopener">参考</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最后更新时间:2019.10.24&lt;/p&gt;&lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h3&gt;&lt;p&gt;LaTex 是一种基于ΤΕΧ的排版系统，开发之初目的利用这种格式，人们在没有程序设计与排版的情况下也能利用其强大的功能在很短的时间内完成书籍的排版。然而其对于复杂表格和数学公式的展示具有很优秀的表现，在很多文字排版系统都可以看得到LaTex的插件。&lt;br&gt;目前我使用LaTex的原因是，他能够帮助我在MarkDown的书写过程中快速的插入数学公式。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="tools" scheme="http://wvdon.com/categories/tools/"/>
-    
-    
-      <category term="LaTex" scheme="http://wvdon.com/tags/LaTex/"/>
     
   </entry>
   
