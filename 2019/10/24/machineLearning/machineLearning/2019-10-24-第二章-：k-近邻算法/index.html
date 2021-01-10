@@ -61,15 +61,15 @@
 <meta property="og:site_name" content="吴卫东のBlog">
 <meta property="og:description" content="摘要K最近邻(k-Nearest Neighbor，KNN)分类算法，是一个理论上比较成熟的方法，也是最简单的机器学习算法之一。该方法的思路是：如果一个样本在特征空间中的k个最相似(即特征空间中最邻近)的样本中的大多数属于某一个类别，则该样本也属于这个类别。">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://web.wvdon.com/machine-learning-1.png">
-<meta property="og:image" content="http://web.wvdon.com/output_6_0.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20210110162911461.png#pic_center">
+<meta property="og:image" content="http://wvdon.com/2019/10/24/machineLearning/machineLearning/2019-10-24-第二章-：k-近邻算法/!%5B%E5%9C%A8%E8%BF%99%E9%87%8C%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%8F%8F%E8%BF%B0%5D(https://img-blog.csdnimg.cn/20210110163017357.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1dlRG9uX3Q=,size_16,color_FFFFFF,t_70#pic_center">
 <meta property="og:image" content="https://latex.codecogs.com/gif.latex?dist(X,Y)&space;=&space;\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+····+(x_n-y_n)^2}=\sqrt{\sum_{i=1}^{n}(X_i-Y_i)^2}">
 <meta property="og:image" content="https://latex.codecogs.com/gif.latex?d&space;=&space;\sqrt{(x_1-y_1)^2+(x_2-y_2)^2}">
-<meta property="og:updated_time" content="2020-12-31T07:19:42.607Z">
+<meta property="og:updated_time" content="2021-01-10T08:30:54.043Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第二章 ：k-近邻算法">
 <meta name="twitter:description" content="摘要K最近邻(k-Nearest Neighbor，KNN)分类算法，是一个理论上比较成熟的方法，也是最简单的机器学习算法之一。该方法的思路是：如果一个样本在特征空间中的k个最相似(即特征空间中最邻近)的样本中的大多数属于某一个类别，则该样本也属于这个类别。">
-<meta name="twitter:image" content="http://web.wvdon.com/machine-learning-1.png">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20210110162911461.png#pic_center">
   <link rel="alternate" href="/atom.xml" title="吴卫东のBlog" type="application/atom+xml">
   <link rel="canonical" href="http://wvdon.com/2019/10/24/machineLearning/machineLearning/2019-10-24-第二章-：k-近邻算法/">
 
@@ -335,7 +335,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-12-31 15:19:42" itemprop="dateModified" datetime="2020-12-31T15:19:42+08:00">2020-12-31</time>
+                <time title="Modified: 2021-01-10 16:30:54" itemprop="dateModified" datetime="2021-01-10T16:30:54+08:00">2021-01-10</time>
               </span>
             
           
@@ -375,7 +375,7 @@
       
         <h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>K最近邻(k-Nearest Neighbor，KNN)分类算法，是一个理论上比较成熟的方法，也是最简单的机器学习算法之一。该方法的思路是：如果一个样本在特征空间中的k个最相似(即特征空间中最邻近)的样本中的大多数属于某一个类别，则该样本也属于这个类别。</p><a id="more"></a>
 <h2 id="KNN"><a href="#KNN" class="headerlink" title="KNN"></a>KNN</h2><p>俗话说近朱者赤近墨者黑，如果你想判断这个人是怎么样的人，你不妨先去看看他的朋友圈是怎么样的，所谓观其友，而识其人。</p>
-<p><img src="http://web.wvdon.com/machine-learning-1.png" alt></p>
+<p><img src="https://img-blog.csdnimg.cn/20210110162911461.png#pic_center" alt="在这里插入图片描述"></p>
 <p>从图中我们能够看到，如果要判断 绿色的是什么形状我们可以通过先判断他距离他最近的K个图形</p>
 <p>当K=3,基于统计，两个三角形（2/3），一个正方形（1/3），我们可以判断绿色为三角形</p>
 <p>当K=5，两个三角形(2/5),三个正方形(3/5),我们判断绿色为正方形</p>
@@ -398,7 +398,7 @@
 
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plt.scatter(x,y)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
 
-<p><img src="http://web.wvdon.com/output_6_0.png" alt="png"></p>
+<p><img src="!%5B%E5%9C%A8%E8%BF%99%E9%87%8C%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%8F%8F%E8%BF%B0%5D(https://img-blog.csdnimg.cn/20210110163017357.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1dlRG9uX3Q=,size_16,color_FFFFFF,t_70#pic_center" alt="png"></p>
 <h4 id="定义一个KNN函数"><a href="#定义一个KNN函数" class="headerlink" title="定义一个KNN函数"></a>定义一个KNN函数</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">classify0</span><span class="params">(inX,dataSet,labels,k)</span>:</span></span><br><span class="line">    dataSetSize = dataSet.shape[<span class="number">0</span>] <span class="comment">#获得训练集的长度</span></span><br><span class="line">    diffMat = tile(inX,(dataSetSize,<span class="number">1</span>))-dataSet <span class="comment"># 复制数组 并将差值计算出来</span></span><br><span class="line">    <span class="comment">#下面三个是计算欧氏距离 </span></span><br><span class="line">    sqDiffMat = diffMat**<span class="number">2</span></span><br><span class="line">    sqDistances = sqDiffMat.sum(axis=<span class="number">1</span>)</span><br><span class="line">    distances = sqDistances**<span class="number">0.5</span> </span><br><span class="line">    </span><br><span class="line">    <span class="comment">#获得distances从小到大的索引值</span></span><br><span class="line">    sortedDistIndicies = distances.argsort()</span><br><span class="line">    classCount = &#123;&#125;</span><br><span class="line">    <span class="comment">#找到前K个标签，输出最大的</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(k):</span><br><span class="line">        voteIlabel = labels[sortedDistIndicies[i]]</span><br><span class="line">        classCount [voteIlabel] = classCount.get(voteIlabel,<span class="number">0</span>)+<span class="number">1</span></span><br><span class="line">    sortedClassCount = sorted(classCount.items(),key = operator.itemgetter(<span class="number">1</span>),reverse = <span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> sortedClassCount[<span class="number">0</span>][<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = classify0([<span class="number">1.2</span>,<span class="number">0.1</span>],group,labels,<span class="number">1</span>)</span><br><span class="line">a</span><br></pre></td></tr></table></figure>
