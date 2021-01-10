@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wvdon.com/"/>
-  <updated>2020-12-31T07:19:42.609Z</updated>
+  <updated>2020-12-31T11:34:46.550Z</updated>
   <id>http://wvdon.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第四章 ：朴素贝叶斯</title>
+    <link href="http://wvdon.com/2020/12/31/machineLearning/%E7%AC%AC%E5%9B%9B%E7%AB%A0/"/>
+    <id>http://wvdon.com/2020/12/31/machineLearning/第四章/</id>
+    <published>2020-12-31T13:04:52.000Z</published>
+    <updated>2020-12-31T11:34:46.550Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第三章 ：决策树</title>
+    <link href="http://wvdon.com/2020/12/31/machineLearning/machineLearning/2020-12-31-%E7%AC%AC%E4%B8%89%E7%AB%A0-%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91/"/>
+    <id>http://wvdon.com/2020/12/31/machineLearning/machineLearning/2020-12-31-第三章-：决策树/</id>
+    <published>2020-12-31T13:04:52.000Z</published>
+    <updated>2020-12-31T11:58:53.424Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>决策树算法类似于数据结构中的二分查找，可以使不同类型的数据集合，建立不同的分类器，最终可以通过决策树给出近似正确的结果。</p><h2 id="决策树-Decision-Tree"><a href="#决策树-Decision-Tree" class="headerlink" title="决策树 Decision Tree"></a>决策树 Decision Tree</h2><p>例如一个邮件系统，通过数个问题推断，不断进行缩小答案。</p><a id="more"></a><p> <img src="https://camo.githubusercontent.com/baee424187b6840aff667d476fa47d2f746f143fbd5ba8f5f78e39d71b1e81fe/687474703a2f2f646174612e617061636865636e2e6f72672f696d672f41694c6561726e696e672f6d6c2f332e4465636973696f6e547265652f2545352538362542332545372541442539362545362541302539312d2545362542352538312545372541382538422545352539422542452e6a7067" alt="决策树-流程图"> </p><h2 id="构建-The-process-of-building-a-Decision-Tree"><a href="#构建-The-process-of-building-a-Decision-Tree" class="headerlink" title="构建 The process of building a Decision Tree"></a>构建 The process of building a Decision Tree</h2><p>包括 特征选择、决策树的生成和决策树的修剪。 </p><p>算法：C4.5和CART</p><h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>相比KNN算法，可以使用不同的数据集合。</p><p>对中间值的缺失不敏感，可以处理不相关的特征值、</p><p>可能会产生过度匹配问题。容易过拟合。</p><p>未完。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;决策树算法类似于数据结构中的二分查找，可以使不同类型的数据集合，建立不同的分类器，最终可以通过决策树给出近似正确的结果。&lt;/p&gt;&lt;h2 id=&quot;决策树-Decision-Tree&quot;&gt;&lt;a href=&quot;#决策树-Decision-Tree&quot; class=&quot;headerlink&quot; title=&quot;决策树 Decision Tree&quot;&gt;&lt;/a&gt;决策树 Decision Tree&lt;/h2&gt;&lt;p&gt;例如一个邮件系统，通过数个问题推断，不断进行缩小答案。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://wvdon.com/2020/12/31/machineLearning/machineLearning/%E7%AC%AC%E5%9B%9B%E7%AB%A0/"/>
+    <id>http://wvdon.com/2020/12/31/machineLearning/machineLearning/第四章/</id>
+    <published>2020-12-31T11:32:46.878Z</published>
+    <updated>2020-12-31T11:32:49.750Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>数据挖掘上分思路</title>
@@ -258,7 +304,7 @@
     <link href="http://wvdon.com/2019/09/27/Hexo%E7%9A%84%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/"/>
     <id>http://wvdon.com/2019/09/27/Hexo的使用笔记/</id>
     <published>2019-09-27T15:42:57.000Z</published>
-    <updated>2020-12-31T08:11:46.610Z</updated>
+    <updated>2021-01-10T05:37:08.340Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>快速、简洁且高效的博客框架。一键部署博客到Github Pages，并原生态支持Markdown。</p></blockquote><p>文件头</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&gt; ---</span><br><span class="line">&gt; title: &apos;题目&apos;</span><br><span class="line">&gt; date: 2019-08-02 15:50:39</span><br><span class="line">&gt; tags: </span><br><span class="line">&gt;   - 1</span><br><span class="line">&gt;   - 2</span><br><span class="line">&gt;   - 3</span><br><span class="line">&gt; categories: [分类]</span><br><span class="line">&gt; mathjax: true</span><br><span class="line">&gt; description: 描述</span><br><span class="line">&gt; ---</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><a id="more"></a><blockquote></blockquote><p>备忘：</p><blockquote><p>hexo s 部署到本地</p><p>hexo g 生成静态文件</p><p>hexo d 部署到github上</p></blockquote><p>重新部署本地时</p><blockquote><p>安装node.js  url=<a href="https://nodejs.org/dist/" target="_blank" rel="noopener">https://nodejs.org/dist/</a> 。（高版本可能会出现问题）</p><p>npm安装 <code>npm install -g hexo-cli</code> </p></blockquote>]]></content>
     
@@ -414,58 +460,6 @@
     
     
       <category term="LaTex" scheme="http://wvdon.com/tags/LaTex/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAT_JAVA题解</title>
-    <link href="http://wvdon.com/2019/06/06/code/pat/"/>
-    <id>http://wvdon.com/2019/06/06/code/pat/</id>
-    <published>2019-06-06T12:58:00.000Z</published>
-    <updated>2020-12-31T07:19:42.605Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="2-1-PAT-甲级题解"><a href="#2-1-PAT-甲级题解" class="headerlink" title="2.1 PAT 甲级题解  "></a><span id="PAT-A">2.1 PAT 甲级题解  </span></h2><table><thead><tr><th align="center">ID</th><th align="center">Title</th><th align="center">链接</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">1025</td><td align="center">PAT Ranking</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93044044" target="_blank" rel="noopener">链接</a></td><td align="center"></td></tr><tr><td align="center">1059</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><h2 id="2-2-PAT乙级题解"><a href="#2-2-PAT乙级题解" class="headerlink" title="2.2 PAT乙级题解"></a><span id="PAT-B">2.2 PAT乙级题解</span></h2><table><thead><tr><th>ID</th><th align="center">Title</th><th align="center">链接</th><th>备注</th></tr></thead><tbody><tr><td>1001</td><td align="center"></td><td align="center"></td><td></td></tr><tr><td>1002</td><td align="center">写出这个数</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93043998" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td>1003</td><td align="center">我要通过</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93044065" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td>1004</td><td align="center">成绩排名</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93044070" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td></td><td align="center"></td><td align="center"></td><td></td></tr><tr><td>1007</td><td align="center">素数对猜想</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93044093" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td>1009</td><td align="center">说反话</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93044025" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td>1013</td><td align="center">数素数</td><td align="center"></td><td></td></tr><tr><td>1020</td><td align="center">月饼</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93043969" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td>1022</td><td align="center">D进制的A+B</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93043969" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td>1023</td><td align="center">组最小数</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93043955" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td>1032</td><td align="center">挖掘机技术哪家强</td><td align="center"></td><td></td></tr><tr><td>1036</td><td align="center">跟奥巴马一起编程</td><td align="center"><a href="https://blog.csdn.net/WeDon_t/article/details/93043983" target="_blank" rel="noopener">链接</a></td><td></td></tr><tr><td></td><td align="center"></td><td align="center"></td><td></td></tr></tbody></table>]]></content>
-    
-    <summary type="html">
-    
-      浙江大学PAT甲乙试题题解
-    
-    </summary>
-    
-      <category term="JAVA数据结构与算法" scheme="http://wvdon.com/categories/JAVA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="java" scheme="http://wvdon.com/tags/java/"/>
-    
-      <category term="pat题解" scheme="http://wvdon.com/tags/pat%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《浪潮之巅》计算机行业的发展规律</title>
-    <link href="http://wvdon.com/2019/04/01/the-top-of-wave/"/>
-    <id>http://wvdon.com/2019/04/01/the-top-of-wave/</id>
-    <published>2019-04-01T15:34:19.000Z</published>
-    <updated>2020-12-31T07:19:42.608Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="摩尔定律"><a href="#摩尔定律" class="headerlink" title="摩尔定律"></a>摩尔定律</h3><hr><blockquote><p>英特尔公司创始人戈登·摩尔 在1956年提出 ，<strong>至多在10年内，集成电路的集成度会每两年翻一番。后来人们把这个周期缩短到18个月</strong>。而现在每18个月，计算机等IT产品的性能会翻一番；换句话来说就是同等性能的计算机等IT产品，每18个月价钱会降一半。乍一看，这个发展速度令人发指，但是几十年来IT行业的发展始终遵循着摩尔定律发展</p></blockquote><a id="more"></a><p>通常我们可以看到，一般新的处理器发布一年半之后，价格会开始大幅下调；</p><p>​       摩尔定律主导着IT行业的发展。首先，为了不断提升芯片的性能，IT公司必须在比较短的时间内完成下一代产品的开发。因此这就要求这些公司必须要投入大量的资金进行研发，这使得每个产品的市场不会有太多的竞争者</p><blockquote><p>这也是这么多年来国内无法生产与国外性能和技术相同的处理器的原因</p></blockquote><h3 id="安迪-比尔定律"><a href="#安迪-比尔定律" class="headerlink" title="安迪-比尔定律"></a>安迪-比尔定律</h3><hr><blockquote><p> 摩尔定律给我们带来了一个希望，即是如果我今天认为计算机太贵买不起，我可以等到18个月之后就可以用一般的价钱买到相同配置的计算机。如果大家都等到几个月之后再买电脑的话，电脑的销量就会降低很多，开发人员也没有动力去更新计算机了</p></blockquote><p>然而事实上是个人电脑的销售一直在持续增长。</p><p><strong>安迪-比尔定律：比尔要拿走安迪所给的（What Andy gives,Bill takes away).</strong></p><blockquote>  安迪：原英特尔CEO安迪·格鲁夫。  比尔：微软公司创始人比尔·盖茨</blockquote><p>​    在过去的几十年里，英特尔的处理器速度每18个月翻一番，计算机的内存和硬盘容量则以更快的速度发展，但是，微软的操作系统和应用软件越来越慢，也越做越大。所以现在的计算机比着10年前快了上百倍，但是软件的运行速度感觉上和之前的差不多。即使是同样功能的软件，今天的比着昨天的占用硬件资源多就在所难免了。</p><p>​    相应的产生了一条生态链：以微软为首的软件开发商吃掉硬件提升带来的全部好处，迫使用户更新计算机，让惠普，戴尔，联想这些公司收益，而这些公司再向英特尔，希捷，三星，金士顿等厂家订购芯片，内存和硬盘等硬件。然后各个公司分别获利，按照摩尔定律预定的速度发展，提升硬件的性能，为微软的下一步更新软件，吃掉硬件性能做准备。</p><p>就这样，安迪-比尔定律把原本属于耐用消费品的电脑，手机等商品变成了消耗性商品，刺激着整个IT行业的发展。</p><h3 id="反摩尔定律"><a href="#反摩尔定律" class="headerlink" title="反摩尔定律"></a>反摩尔定律</h3><hr><p>​     Googel前CEO埃里克·施密特指出：<strong><em>一个IT公司如果今天和18个月之前卖掉同样的产品，他的营业额就要降低一半。对于IT公司反摩尔定律是非常可怕的，因为一个公司付出了相同的劳动，却只得到之前一半的收入，</em></strong></p><blockquote>  反摩尔定律逼着所有的硬件设备公司必须要赶得上摩尔定律规定的更新速度。<p>  反摩尔定律使得IT企业不可能像石油工业或飞机制造业那样只追求量变，而必须要不断的寻找革命性的创造发明。</p><p>  反摩尔定律同时使得新兴的小公司有可能在发展新技术方面和大公司处在同一个起跑线上。</p></blockquote><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><blockquote>  苹果公司是一个例外，它是通过硬件实现软件的价值，因此在过去的10多年他的产品成为了一种时尚和潮流。  由于安迪-比尔定律的作用，在IT工业的产业链中，处于上游的是“看不见摸不着”的软件和IT服务业，而下是”看得见摸得着“的硬件和半导体。从事IT业，想要获得高额利润，就得从上游入手，从微软，Google,facebook，无一不是。</blockquote>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;摩尔定律&quot;&gt;&lt;a href=&quot;#摩尔定律&quot; class=&quot;headerlink&quot; title=&quot;摩尔定律&quot;&gt;&lt;/a&gt;摩尔定律&lt;/h3&gt;&lt;hr&gt;&lt;blockquote&gt;
-&lt;p&gt;英特尔公司创始人戈登·摩尔 在1956年提出 ，&lt;strong&gt;至多在10年内，集成电路的集成度会每两年翻一番。后来人们把这个周期缩短到18个月&lt;/strong&gt;。而现在每18个月，计算机等IT产品的性能会翻一番；换句话来说就是同等性能的计算机等IT产品，每18个月价钱会降一半。乍一看，这个发展速度令人发指，但是几十年来IT行业的发展始终遵循着摩尔定律发展&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="读书笔记" scheme="http://wvdon.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="摩尔定律" scheme="http://wvdon.com/tags/%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B/"/>
-    
-      <category term="安迪比尔定律" scheme="http://wvdon.com/tags/%E5%AE%89%E8%BF%AA%E6%AF%94%E5%B0%94%E5%AE%9A%E5%BE%8B/"/>
-    
-      <category term="反摩尔定律" scheme="http://wvdon.com/tags/%E5%8F%8D%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B/"/>
     
   </entry>
   
