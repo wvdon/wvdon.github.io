@@ -54,15 +54,19 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="吴卫东のBlog">
-<meta property="og:url" content="http://wvdon.com/categories/remember/index.html">
+  <meta name="description" content="每日论文翻译">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Blockchain challenges and opportunities :a survey">
+<meta property="og:url" content="http://wvdon.com/2021/01/17/paper/P2-BlockchainSuvery/index.html">
 <meta property="og:site_name" content="吴卫东のBlog">
+<meta property="og:description" content="每日论文翻译">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2021-01-17T14:17:58.133Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="吴卫东のBlog">
+<meta name="twitter:title" content="Blockchain challenges and opportunities :a survey">
+<meta name="twitter:description" content="每日论文翻译">
   <link rel="alternate" href="/atom.xml" title="吴卫东のBlog" type="application/atom+xml">
-  <link rel="canonical" href="http://wvdon.com/categories/remember/">
+  <link rel="canonical" href="http://wvdon.com/2021/01/17/paper/P2-BlockchainSuvery/">
 
 
 <script id="page-configurations">
@@ -70,13 +74,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>Category: remember | 吴卫东のBlog</title>
+  <title>Blockchain challenges and opportunities :a survey | 吴卫东のBlog</title>
   <meta name="generator" content="Hexo 3.9.0">
   
 
@@ -278,160 +282,183 @@
         <div class="content-wrap">
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+      <article itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block category">
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1 class="collection-header">remember<small>Category</small>
+  <div class="post-block post">
+    <link itemprop="mainEntityOfPage" href="http://wvdon.com/2021/01/17/paper/P2-BlockchainSuvery/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Wedong Wu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="吴卫东のBlog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Blockchain challenges and opportunities :a survey
+
+          
         </h1>
-      </div>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              
+                
+              
+
+              <time title="Created: 2021-01-17 22:15:11 / Modified: 22:17:58" itemprop="dateCreated datePublished" datetime="2021-01-17T22:15:11+08:00">2021-01-17</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/paper/" itemprop="url" rel="index"><span itemprop="name">paper</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            <span class="post-meta-item" title="Views">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+        
+      
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2021/01/17/paper/P2-BlockchainSuvery/#comments" itemprop="discussionUrl"><span class="post-comments-count valine-comment-count" data-xid="/2021/01/17/paper/P2-BlockchainSuvery/" itemprop="commentCount"></span></a>
+  </span>
+  
+  
+            <div class="post-description">每日论文翻译</div>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
+        <h3 id="What-is-this-paper-doing"><a href="#What-is-this-paper-doing" class="headerlink" title="What is this paper doing?"></a>What is this paper doing?</h3><p>  A survey:关于区块链的挑战和机会的综述 </p><h3 id="翻译："><a href="#翻译：" class="headerlink" title="翻译："></a>翻译：</h3><h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><p><em>Abstract: Blockchain has numerous beneﬁts such as decentralisation, persistency, anonymity and auditability. There is a wide spectrum of blockchain applications ranging from cryptocurrency, ﬁnancial services, risk management, internet of things (IoT) to public and social services. Although a number of studies focus on using the blockchain technology in various application aspects, there is no comprehensive survey on the blockchain technology in both technological and application perspectives. To ﬁll this gap, we conduct a comprehensive surveyon the blockchain technology. In particular, this paper gives the blockchain taxonomy, introduces typical blockchain consensus algorithms, reviews blockchain applications and discusses technical challenges as well as recent advances in tackling the challenges. Moreover, this paper also points out the future directions in the blockchain technology</em></p><a id="more"></a>
 
-  
-  
+<p>区块链现在有很多好处，比如去中心化，连续性，匿名和可审计性。区块链非常广泛的应用到加密货币，金融服务，风险管理，物联网loT到公共和社会服务。尽管大量的研究聚焦到使用区块链技术在各个方面。但是现今在科技和应用方面，仍然没有一个关于区块链技术很综合的调查。为了弥补这个空缺，我们对区块链技术进行了一个比较综合的调查。尤其是，这篇文章<del>对区块链进行分类</del><strong>给出了区块链分类法</strong>，介绍了典型的区块链共识算法，综述了区块链应用和讨论起科技挑战，以及提前应对挑战。此外，这篇文章也指出了区块链技术的未来方向。</p>
+<p>range from ….   to </p>
+<ul>
+<li>decentralisation 去中心化。</li>
+<li>persistency 连续性</li>
+<li>auditability 可信性</li>
+<li>cryptocurrency 加密货币</li>
+<li>internet of things (IoT)</li>
+<li>conduct 在这翻译为进行</li>
+<li>blockchain taxonomy  区块链分类</li>
+<li>consensus algorithms 共识算法</li>
+<li>tackling the challenges 应对挑战。</li>
+</ul>
 
-  
+    </div>
+
     
-    <div class="collection-year">
-      <h1 class="collection-header">2020</h1>
-    </div>
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2020/03/01/remenber/纪念网易云里那些热爱生活的人/" itemprop="url">
-            <span itemprop="name">1833：网易云里永远定格的数字</span>
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-03-01T15:50:39+08:00"
-              content="2020-03-01">
-          03-01
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
     
-    <div class="collection-year">
-      <h1 class="collection-header">2018</h1>
-    </div>
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
+    
         
-          <a class="post-title-link" href="/2018/04/02/remenber/念：心念城南好风景，花开时节愿逢君/" itemprop="url">
-            <span itemprop="name">念：心念城南好风景，花开时节愿逢君</span>
-          </a>
+      
         
-      </h2>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-04-02T23:42:57+08:00"
-              content="2018-04-02">
-          04-02
-        </time>
-      </div>
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>Wedong Wu</li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="http://wvdon.com/2021/01/17/paper/P2-BlockchainSuvery/" title="Blockchain challenges and opportunities :a survey">http://wvdon.com/2021/01/17/paper/P2-BlockchainSuvery/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.</li>
+</ul>
+</div>
 
-    </header>
-  </article>
-
-
-
+      
+		<div>
   
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
   
+</div>
+      <footer class="post-footer">
 
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
         
-          <a class="post-title-link" href="/2018/04/01/remenber/81192-听到请返航/" itemprop="url">
-            <span itemprop="name">81192-听到请返航</span>
-          </a>
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2021/01/16/paper/P1-SFNN/" rel="next" title="SFNN: Semantic Features Fusion Neural Network for Multimodal Sentiment Analysis">
+                  <i class="fa fa-chevron-left"></i> SFNN: Semantic Features Fusion Neural Network for Multimodal Sentiment Analysis
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+            </div>
+          </div>
         
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-04-01T08:42:57+08:00"
-              content="2018-04-01">
-          04-01
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    </div>
+      </footer>
+    
   </div>
   
   
   
+  </article>
 
-  
-
+  </div>
 
 
           </div>
           
+    
+    <div class="comments" id="comments"></div>
+  
 
         </div>
           
@@ -446,6 +473,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc" data-target="post-toc-wrap">
@@ -458,6 +490,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#What-is-this-paper-doing"><span class="nav-text">What is this paper doing?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#翻译："><span class="nav-text">翻译：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#摘要"><span class="nav-text">摘要</span></a></li></ol></li></ol></div>
+        
       </div>
       <!--/noindex-->
 
