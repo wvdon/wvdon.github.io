@@ -54,15 +54,19 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="吴卫东のBlog">
-<meta property="og:url" content="http://wvdon.com/tags/比赛/index.html">
+  <meta name="description" content="每日论文翻译">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Reliability in Cloud Computing System: A Review">
+<meta property="og:url" content="http://wvdon.com/2021/01/23/paper/P5-cloud-computing/index.html">
 <meta property="og:site_name" content="吴卫东のBlog">
+<meta property="og:description" content="每日论文翻译">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2021-01-23T14:31:24.321Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="吴卫东のBlog">
+<meta name="twitter:title" content="Reliability in Cloud Computing System: A Review">
+<meta name="twitter:description" content="每日论文翻译">
   <link rel="alternate" href="/atom.xml" title="吴卫东のBlog" type="application/atom+xml">
-  <link rel="canonical" href="http://wvdon.com/tags/比赛/">
+  <link rel="canonical" href="http://wvdon.com/2021/01/23/paper/P5-cloud-computing/">
 
 
 <script id="page-configurations">
@@ -70,13 +74,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>Tag: 比赛 | 吴卫东のBlog</title>
+  <title>Reliability in Cloud Computing System: A Review | 吴卫东のBlog</title>
   <meta name="generator" content="Hexo 3.9.0">
   
 
@@ -278,97 +282,186 @@
         <div class="content-wrap">
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+      <article itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block tag">
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1 class="collection-header">比赛<small>Tag</small>
+  <div class="post-block post">
+    <link itemprop="mainEntityOfPage" href="http://wvdon.com/2021/01/23/paper/P5-cloud-computing/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Wedong Wu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="吴卫东のBlog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Reliability in Cloud Computing System: A Review
+
+          
         </h1>
-      </div>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              
+                
+              
+
+              <time title="Created: 2021-01-23 22:24:25 / Modified: 22:31:24" itemprop="dateCreated datePublished" datetime="2021-01-23T22:24:25+08:00">2021-01-23</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/paper/" itemprop="url" rel="index"><span itemprop="name">paper</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            <span class="post-meta-item" title="Views">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+        
+      
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2021/01/23/paper/P5-cloud-computing/#comments" itemprop="discussionUrl"><span class="post-comments-count valine-comment-count" data-xid="/2021/01/23/paper/P5-cloud-computing/" itemprop="commentCount"></span></a>
+  </span>
+  
+  
+            <div class="post-description">每日论文翻译</div>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
+        <ul>
+<li>云计算可靠性研究综述</li>
+<li>来源 计算机研究与发展  <a href="http://crad.ict.ac.cn/CN/1000-1239/home.shtml" target="_blank" rel="noopener">http://crad.ict.ac.cn/CN/1000-1239/home.shtml</a></li>
+<li>华东师范，段等人。</li>
+</ul><p>Abstract— As a new computing paradigm, cloud computing has attracts extensive concerns from both academic and industrial fields. Based on resource virtualization technology, cloud computing provides users with services in the forms of infrastructure, platform and software in a “pay-as-you-go” manner. In the meanwhile, since cloud computing provides highly scalable computing resources, more and more enterprises and organizations choose cloud computing platforms to deploy their scientific or commercial applications. However, with the increasing number of cloud users, cloud data centers continuously expand and the architecture becomes increasingly complex, leading to growing runtime failures in cloud computing systems. Therefore, how to ensure the system reliability in cloud computing systems with large scale and complex architecture has become a huge challenge. This paper first summarizes various failures in cloud systems, introduces several methods to evaluate the reliability of cloud computing, and describes some key fault management mechanisms. Since fault management techniques inevitably increase energy consumption of cloud systems, this paper reviews current researches on the trade-off between reliability and energy efficiency in cloud computing. In the end, we propose some major challenges in current research of cloud computing reliability and concludes our paper. </p><a id="more"></a>
 
-  
-  
+<p> <strong>Key words:</strong> <a href="http://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2020.20180675#" target="_blank" rel="noopener">cloud computing, </a><a href="http://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2020.20180675#" target="_blank" rel="noopener">virtualization, </a><a href="http://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2020.20180675#" target="_blank" rel="noopener">reliability, </a><a href="http://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2020.20180675#" target="_blank" rel="noopener">fault management, </a><a href="http://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2020.20180675#" target="_blank" rel="noopener">energy consumption</a> </p>
+<p>翻译：</p>
+<p>作为一种新型计算模式，云计算已经从学术和工业领域吸引大量的关注。基于资源虚拟化技术，云计算以一种按需使用的方式提供给用户基础设施平台和软件等服务。与此同时，自从云计算提供大规模计算资源，越来越多企业和组织机构选择云计算平台to部署他们的科技或者商业应用。然而，随着大量云用户的增长，云数据中心持续在扩张，架构变得日益复杂，这就导致了在云计算系统故障增加。因此，如何确保云计算系统在在大规模和复杂的云计算系统稳定变成了一个巨大的挑战。这篇文章第一次总结了在云系统中的各种失败。介绍了一些去评估云计算可靠性的方法，并且描述了一些关键的故障管理机制。由于故障管理技术会增加云系统的资源消耗，这篇文章介绍了在云计算中可靠性与能源权衡问题的研究现状。我们在当前云计算可靠性研究中列举了一些主要的挑战，并且总结归类在这篇文章中。（最后列举了当前云计算可靠性研究中存在的主要挑战）</p>
+<p><strong>关键词</strong>; 云计算，虚拟化，可靠性，故障管理，能源消耗</p>
+<ul>
+<li>paradigm 模式</li>
+<li>resource virtualization technology资源虚拟化技术</li>
+<li>infrastructure  基础设施</li>
+<li>runtime failures 运行故障</li>
+<li>some key fault management <strong>mechanisms</strong>  一些关键的故障管理机制</li>
+<li>reviews 分析，介绍 </li>
+</ul>
 
-  
+    </div>
+
     
-    <div class="collection-year">
-      <h1 class="collection-header">2020</h1>
-    </div>
+    
+    
+        
+      
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>Wedong Wu</li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="http://wvdon.com/2021/01/23/paper/P5-cloud-computing/" title="Reliability in Cloud Computing System: A Review">http://wvdon.com/2021/01/23/paper/P5-cloud-computing/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.</li>
+</ul>
+</div>
+
+      
+		<div>
   
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+  
+</div>
+      <footer class="post-footer">
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
         
-          <a class="post-title-link" href="/2020/03/20/比赛思路-阅读/" itemprop="url">
-            <span itemprop="name">数据挖掘上分思路</span>
-          </a>
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2021/01/21/linux/frp/" rel="next" title="使用frp远程访问Jupyter Notebook">
+                  <i class="fa fa-chevron-left"></i> 使用frp远程访问Jupyter Notebook
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+            </div>
+          </div>
         
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-03-20T15:50:39+08:00"
-              content="2020-03-20">
-          03-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    </div>
+      </footer>
+    
   </div>
   
   
   
+  </article>
 
-  
-
+  </div>
 
 
           </div>
           
+    
+    <div class="comments" id="comments"></div>
+  
 
         </div>
           
@@ -383,6 +476,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc" data-target="post-toc-wrap">
