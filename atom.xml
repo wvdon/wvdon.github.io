@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wvdon.com/"/>
-  <updated>2021-01-27T13:27:26.551Z</updated>
+  <updated>2021-01-28T13:30:41.451Z</updated>
   <id>http://wvdon.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论文阅读笔记-推荐系统类 </title>
+    <link href="http://wvdon.com/2021/01/28/paper/P7-recommendSystem/"/>
+    <id>http://wvdon.com/2021/01/28/paper/P7-recommendSystem/</id>
+    <published>2021-01-28T13:30:00.000Z</published>
+    <updated>2021-01-28T13:30:41.451Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Modelling-High-Order-Social-Relations-for-Item-Recommendation"><a href="#Modelling-High-Order-Social-Relations-for-Item-Recommendation" class="headerlink" title="Modelling High-Order Social Relations for Item Recommendation"></a>Modelling High-Order Social Relations for Item Recommendation</h2><blockquote><p>来源谷歌学术</p><p>题目：为项目推荐推荐建立高阶联系</p></blockquote><h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>这篇文章研究了社会关系对于推荐的影响，以往的方法都是使用一阶的社会关系（相当于P2P的网络结构，但是距离为1），而很少去使用高阶关系。</p><a id="more"></a><p><strong>社会关系在推荐系统中的重要性：</strong> 人们在真实的场景中，计划去买东西的时候，他的决定往往会受到朋友的影响。比如向朋友征求意见，或者被朋友所购买的产品所吸引。再随着社交网络，朋友圈，微信群这些的诞生，人们购买商品的交流变得更加方便，因此想要提供令人满意的服务，就不得不考虑社会关系带来的影响了。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>之前常见的解决方法是设计额外的损失项，将社会影响假设进行编码，最后和推荐目标一起优化。但是这些方法在利用社交关系上过于含蓄，因为他需要仔细的调整社会正规化系数才能得到好的结果。</p><p>基于以上，作者提出了一种新的基于GCN的预测模型，该模型通过多步消息传播将高阶社会关系明确编码到用户嵌入学习中。</p><p>然后在豆瓣和yelp的数据集上进行试验。并且与BPR,NCF,NSCR等模型进行对比，HOSE在任何情况下都能够达到最好的性能</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在这项工作中，作者提出了一个新的社会推荐框架HOSR，该框架整合了高阶邻居信息来解决数据稀疏问题。该模型的核心是通过沿高阶社会邻居进行嵌入传播来生成用户嵌入。利用图卷积层，作者可以将高阶邻域的效果显式建模到表示框架中。进一步利用注意机制来杠杆不同层次的输出，并采用两种dropout策略来缓解过拟合。在两个真实数据集上的实验证明了他的模型的有效性和传播的影响。</p>]]></content>
+    
+    <summary type="html">
+    
+      每日论文翻译
+    
+    </summary>
+    
+      <category term="paper" scheme="http://wvdon.com/categories/paper/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Cloud Computing and Its Technologies: A Survey </title>
@@ -163,6 +183,20 @@
   </entry>
   
   <entry>
+    <title>第四章 ：朴素贝叶斯</title>
+    <link href="http://wvdon.com/2020/12/31/machineLearning/machineLearning/%E7%AC%AC%E5%9B%9B%E7%AB%A0/"/>
+    <id>http://wvdon.com/2020/12/31/machineLearning/machineLearning/第四章/</id>
+    <published>2020-12-31T13:04:52.000Z</published>
+    <updated>2020-12-31T11:34:46.550Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>第三章 ：决策树</title>
     <link href="http://wvdon.com/2020/12/31/machineLearning/machineLearning/2020-12-31-%E7%AC%AC%E4%B8%89%E7%AB%A0-%EF%BC%9A%E5%86%B3%E7%AD%96%E6%A0%91/"/>
     <id>http://wvdon.com/2020/12/31/machineLearning/machineLearning/2020-12-31-第三章-：决策树/</id>
@@ -174,20 +208,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;决策树算法类似于数据结构中的二分查找，可以使不同类型的数据集合，建立不同的分类器，最终可以通过决策树给出近似正确的结果。&lt;/p&gt;&lt;h2 id=&quot;决策树-Decision-Tree&quot;&gt;&lt;a href=&quot;#决策树-Decision-Tree&quot; class=&quot;headerlink&quot; title=&quot;决策树 Decision Tree&quot;&gt;&lt;/a&gt;决策树 Decision Tree&lt;/h2&gt;&lt;p&gt;例如一个邮件系统，通过数个问题推断，不断进行缩小答案。&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>第四章 ：朴素贝叶斯</title>
-    <link href="http://wvdon.com/2020/12/31/machineLearning/machineLearning/%E7%AC%AC%E5%9B%9B%E7%AB%A0/"/>
-    <id>http://wvdon.com/2020/12/31/machineLearning/machineLearning/第四章/</id>
-    <published>2020-12-31T13:04:52.000Z</published>
-    <updated>2020-12-31T11:34:46.550Z</updated>
-    
-    <summary type="html">
     
     </summary>
     
@@ -420,34 +440,6 @@
     
     
       <category term="linux" scheme="http://wvdon.com/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>字符串匹配:KMP</title>
-    <link href="http://wvdon.com/2019/10/16/arithmetic/2019-10-16-JAVA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95KMP/"/>
-    <id>http://wvdon.com/2019/10/16/arithmetic/2019-10-16-JAVA数据结构与算法KMP/</id>
-    <published>2019-10-16T09:50:39.000Z</published>
-    <updated>2021-01-10T08:55:07.099Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>​    KMP算法是一种改进的<a href="https://baike.baidu.com/item/字符串匹配" target="_blank" rel="noopener">字符串匹配</a>算法，由D.E.Knuth，J.H.Morris和V.R.Pratt提出的，因此人们称它为<a href="https://baike.baidu.com/item/克努特" target="_blank" rel="noopener">克努特</a>—<a href="https://baike.baidu.com/item/莫里斯" target="_blank" rel="noopener">莫里斯</a>—<a href="https://baike.baidu.com/item/普拉特" target="_blank" rel="noopener">普拉特</a>操作（简称KMP算法）。KMP算法的核心是利用匹配失败后的信息，尽量减少模式串与主串的匹配次数以达到快速匹配的目的。具体实现就是通过一个next()函数实现，函数本身包含了模式串的局部匹配信息。KMP算法的<a href="https://baike.baidu.com/item/时间复杂度" target="_blank" rel="noopener">时间复杂度</a>O(m+n)。</p><a id="more"></a><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>​    字符串的匹配是对字符串的基本操作，最直接的方式是进行全遍历搜索的回溯法，但是其复杂度较高，而随着人们对于匹配效率的追求与匹配优化，其匹配的复杂度逐渐降低。<br>​    在这个过程中最重要的当属于KMP了，他将原有的算法复杂度降低到了O(n+m) 其中n,m是指两个字符串的长度。</p><h2 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h2><h3 id="最直接的回溯法"><a href="#最直接的回溯法" class="headerlink" title="最直接的回溯法"></a>最直接的回溯法</h3><p>​    从字符串左边开始匹配，如果遇到相同的sc与j同事进行+1，直到全部遍历完p的时候进行返回下标，如果匹配过程有不一样的sc进行回溯到i。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Match_kmp</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        System.out.println(indexOf(<span class="string">"aaavbvdd"</span>,<span class="string">"vbv"</span>));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">indexOf</span><span class="params">(String s,String p)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> sc = i;</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (sc&lt;s.length())&#123;</span><br><span class="line">            <span class="keyword">if</span>(s.charAt(sc)==p.charAt(j))&#123;</span><br><span class="line">                j++;</span><br><span class="line">                sc++;</span><br><span class="line">                <span class="keyword">if</span>(j==p.length())&#123;</span><br><span class="line">                    <span class="keyword">return</span> i;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;<span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                i++;</span><br><span class="line">                sc=i;</span><br><span class="line">                j=<span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>其结果是返回第一个匹配的下标i</p><ul><li>这种求解的方法复杂度达到O(n*m)，下面介绍KMP算法.</li></ul><h3 id="KMP匹配"><a href="#KMP匹配" class="headerlink" title="KMP匹配"></a>KMP匹配</h3><h4 id="图解"><a href="#图解" class="headerlink" title="图解"></a>图解</h4><p> <img src="https://img-blog.csdnimg.cn/20210110164101597.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1dlRG9uX3Q=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p><p>①从左到右进行匹配,此时 i =0,j=0;如果相同 j++,i++，如果不相同 j进行回溯</p><p>②匹配到最后一个不相同的时候进行回溯，如果暴力进行匹配的时候 i ++，令j=0;<br>但是我们可以借助之前已经比较的字符串T，进行回溯。这样比较的时候就会减少复杂度。j回溯的大小取决于匹配字符串T的next[数组]。Next数组的求解放到下面说.next={0,0,0,0,2,2}<br>$$<br>右移的大小=以经匹配的字符串-next[j]<br>$$<br>所以next[5]=2，右移的大小=5-2，此时j也进行回溯，<br>$$<br>j = next[j-1]<br>$$<br>③以此类推，此时j=2;进行比较 ，不相同，进行回溯 j = 2-next[j-1]=2……..</p><h4 id="KMP"><a href="#KMP" class="headerlink" title="KMP"></a>KMP</h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MatchKMP</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> ne[] =getNext(<span class="string">"abcdabd"</span>);</span><br><span class="line">        <span class="keyword">int</span> res = kmp(<span class="string">"ssdfgasdbababa"</span>,<span class="string">"bababa"</span>,ne);</span><br><span class="line">        System.out.println(res);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">kmp</span><span class="params">(String s,String t,<span class="keyword">int</span>[] next)</span></span>&#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>,j=<span class="number">0</span>;i&lt;s.length();i++)&#123;</span><br><span class="line">            <span class="keyword">while</span>(j&gt;<span class="number">0</span>&amp;&amp;s.charAt(i)!=t.charAt(j))&#123;</span><br><span class="line">                j=next[j-<span class="number">1</span>];</span><br><span class="line">            &#125;<span class="keyword">if</span>(s.charAt(i)==t.charAt(j))&#123;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(j==t.length())&#123;</span><br><span class="line">                <span class="keyword">return</span> i-j+<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span>[] getNext(String t)&#123;</span><br><span class="line">        <span class="keyword">int</span> next[]=<span class="keyword">new</span> <span class="keyword">int</span>[t.length()];</span><br><span class="line">        next[<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>,j=<span class="number">0</span>; i &lt; t.length(); i++) &#123;</span><br><span class="line">            <span class="keyword">while</span> (j&gt;<span class="number">0</span>&amp;&amp;t.charAt(j)!=t.charAt(i))</span><br><span class="line">                j=next[j-<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">if</span>(t.charAt(i)==t.charAt(j))</span><br><span class="line">                j++;</span><br><span class="line">            next[i]=j;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="求解-next数组"><a href="#求解-next数组" class="headerlink" title="求解 next数组"></a>求解 next数组</h4><ul><li>前缀是除了最后一个字符的集合</li><li>后缀是除了第一个字符的集合<br>a b c a b d的前缀和后缀计算方法<br>a 一个字符的前后缀都为0<br>a b的前缀是 [ a ]  后缀是[ b ] 相同为 0<br>a b c 的前缀是 [a ,a b] 后缀是 [b c,c] 相同为0<br>a b c a 的前缀为 [a,ab,abc] 后缀是[b c a,c a,a] 0<br>a b c a b 的前缀为 [a ,ab,abc,abca]后缀是 [bcab,cab,ab,b] 最大相同为ab  next[4]=2<br>a b c a b d 的前缀为 [a,ab,abc,abcb,abcabd]<br>后缀为 [bcabd,cabd,abd,bd,d]最大共有长度还是ab 故 next[5] = 2;</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">private static int[] getNext(String t)&#123;</span><br><span class="line">      int next[]=new int[t.length()];</span><br><span class="line">      next[0]=0;</span><br><span class="line">      for (int i = 1,j=0; i &lt; t.length(); i++) &#123;</span><br><span class="line">          while (j&gt;0&amp;&amp;t.charAt(j)!=t.charAt(i))</span><br><span class="line">              j=next[j-1];</span><br><span class="line">          if(t.charAt(i)==t.charAt(j))</span><br><span class="line">              j++;</span><br><span class="line">          next[i]=j;</span><br><span class="line">      &#125;</span><br><span class="line">      return next;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>学习KMP算法花了我不少的时间，当时看了一直没有特别理解。后来经过自己画图，瞬间明白了；凡事还是要多动手。</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>百度百科 <a href="[https://baike.baidu.com/item/KMP%E7%AE%97%E6%B3%95/10951804](https://baike.baidu.com/item/KMP算法/10951804)">KMP算法</a></p><p>阮一峰的博客 <a href="http://www.ruanyifeng.com/blog/2013/05/Knuth–Morris–Pratt_algorithm.html" target="_blank" rel="noopener">字符串匹配的KMP算法</a></p>]]></content>
-    
-    <summary type="html">
-    
-      JAVA数据结构与算法：字符串匹配之KMP
-    
-    </summary>
-    
-      <category term="JAVA数据结构与算法" scheme="http://wvdon.com/categories/JAVA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="java" scheme="http://wvdon.com/tags/java/"/>
-    
-      <category term="数据结构" scheme="http://wvdon.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-      <category term="KMP" scheme="http://wvdon.com/tags/KMP/"/>
-    
-      <category term="字符串匹配" scheme="http://wvdon.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D/"/>
     
   </entry>
   
