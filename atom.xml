@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wvdon.com/"/>
-  <updated>2021-05-07T08:00:05.189Z</updated>
+  <updated>2021-05-07T12:56:08.036Z</updated>
   <id>http://wvdon.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库</title>
+    <link href="http://wvdon.com/2021/05/07/database/springBoot/"/>
+    <id>http://wvdon.com/2021/05/07/database/springBoot/</id>
+    <published>2021-05-07T11:42:57.000Z</published>
+    <updated>2021-05-07T12:56:08.036Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h2 id="mysql语法"><a href="#mysql语法" class="headerlink" title="mysql语法"></a>mysql语法</h2><h3 id="LeetCode题目："><a href="#LeetCode题目：" class="headerlink" title="LeetCode题目："></a>LeetCode题目：</h3><p><a href="https://leetcode-cn.com/problemset/database/" target="_blank" rel="noopener">https://leetcode-cn.com/problemset/database/</a></p><h2 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h2>]]></content>
+    
+    <summary type="html">
+    
+      数据库
+    
+    </summary>
+    
+      <category term="database" scheme="http://wvdon.com/categories/database/"/>
+    
+    
+      <category term="数据库" scheme="http://wvdon.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>框架：SpringBoot</title>
@@ -419,24 +441,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;K最近邻(k-Nearest Neighbor，KNN)分类算法，是一个理论上比较成熟的方法，也是最简单的机器学习算法之一。该方法的思路是：如果一个样本在特征空间中的k个最相似(即特征空间中最邻近)的样本中的大多数属于某一个类别，则该样本也属于这个类别。&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>第一章 ：机器学习基础</title>
-    <link href="http://wvdon.com/2019/10/22/machineLearning/machineLearning/2019-10-22-%E7%AC%AC%E4%B8%80%E7%AB%A0-%EF%BC%9A%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/"/>
-    <id>http://wvdon.com/2019/10/22/machineLearning/machineLearning/2019-10-22-第一章-：机器学习基础/</id>
-    <published>2019-10-22T13:04:52.000Z</published>
-    <updated>2021-05-06T11:55:55.766Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本系列文章源自于读《机器学习实战》这本书的学习笔记，用于记录学习内容，不断更新，，</p><p>21世纪互联网的发展，使得我们对于数据的收集更加容易，在这样大量数据的前提下，我们必须要挖掘出海量数据的价值，而机器学习的算法受到许多爱好技术人员的青睐，是因为这些算法在一定程度上可以帮助我们进行一些诸如回归预测，分类，识别等诸多场景的应用。</p><a id="more"></a><h4 id="何谓数据，信息，知识呢？"><a href="#何谓数据，信息，知识呢？" class="headerlink" title="何谓数据，信息，知识呢？"></a>何谓数据，信息，知识呢？</h4><blockquote><p>一切的实物都是数据，而信息是有用的数据</p><p>例如： 通过测量行星的位置和对应的时间，我们得到的就是数据。而通过这些数据获得行星的轨迹就是信息，通过这些信息总结出来开普勒三定律就是知识了。</p></blockquote><h2 id="本书结构"><a href="#本书结构" class="headerlink" title="本书结构"></a>本书结构</h2><p>《机器学习实战》全书共15章，主要是介绍了数据挖掘的十大算法其八：</p><p>C4.5决策树、K-均值（K-mean）、支持向量机（SVM）、Apriori、 最大期望算法（EM）、PageRank算法、AdaBoost算法、k-近邻算法（kNN）、朴素贝叶斯算法（NB） 和分类回归树（CART）算法。没有包括最大期望算法和PageRank 算法。本书没有包括PageRank算法，是因为搜索引擎巨头Google引入的PageRank算法已经在很多 著作里得到了充分的论述，没有必要进一步累述；而最大期望算法没有纳入，是因为涉及太多的</p><h4 id="选择本书的原因"><a href="#选择本书的原因" class="headerlink" title="选择本书的原因"></a>选择本书的原因</h4><p>本书的实战性比较强，每个章节都是用例子来说明的，符合我这种喜欢写代码的同学，如果是西瓜书我可能看着就睡着了，理论知识太多了。</p><p>我的计划是可以通过本书对这几个算法有一定的了解之后再选择西瓜书或李宏毅的课程进行研读。</p><p>由于书上实现都是用的python2.x，我会用python3.7将其复现，并用jupyter展示出来。</p><h2 id="何谓机器学习呢？"><a href="#何谓机器学习呢？" class="headerlink" title="何谓机器学习呢？"></a>何谓机器学习呢？</h2><p>机器学习是一类算法的总称，这些算法企图从大量历史数据中挖掘出其中隐含的规律，并用于预测或者分类，更具体的说，机器学习可以看作是寻找一个函数，输入是样本数据，输出是期望的结果，只是这个函数过于复杂，以至于不太方便形式化表达。需要注意的是，机器学习的目标是使学到的函数很好地适用于“新样本”，而不仅仅是在训练样本上表现很好。学到的函数适用于新样本的能力，称为泛化（Generalization）能力。</p><p>简言之，机器学习可以揭示数据背后的真实 含义</p><h2 id="人工智能-机器学习-深度学习"><a href="#人工智能-机器学习-深度学习" class="headerlink" title="人工智能 机器学习 深度学习"></a>人工智能 机器学习 深度学习</h2><p><b>人工智能是追求目标，机器学习是实现手段，深度学习是其中一种方法。</b></p><h3 id="人工智能（Artificial-Intelligence）：机器赋予人的智慧"><a href="#人工智能（Artificial-Intelligence）：机器赋予人的智慧" class="headerlink" title="人工智能（Artificial Intelligence）：机器赋予人的智慧"></a>人工智能<strong>（Artificial Intelligence）</strong>：机器赋予人的智慧</h3><p>1956年，几个计算机科学家相聚在达特茅斯会议，提出了“人工智能”的概念，梦想着用当时刚刚出现的计算机来构造复杂的、拥有与人类智慧同样本质特性的机器<br>2012年以后，得益于数据量的上涨、运算力的提升和机器学习新算法（深度学习）的出现，人工智能开始大爆发。</p><p>现在人工智能的研究领域只要有 专家系统、机器学习、进化计算、模糊逻辑、计算机视觉、自然语言处理、推荐系统等</p><h5 id="弱人工智能-强人工智能"><a href="#弱人工智能-强人工智能" class="headerlink" title="弱人工智能-强人工智能"></a>弱人工智能-强人工智能</h5><p>我们现在所说的人工智能都是弱人工智能，能够实现具体的某一种任务，如人脸识别，机器翻译。<br>墙人工智能大概就像是人一样吧，能够自己学习everything</p><h3 id="机器学习（Machine-Learning）：一种实现人工智能的手段"><a href="#机器学习（Machine-Learning）：一种实现人工智能的手段" class="headerlink" title="机器学习（Machine Learning）：一种实现人工智能的手段"></a>机器学习（Machine Learning）：一种实现人工智能的手段</h3><p>机器学习的最基本做法，便是使用算法来对数据进行解析、学习，然后对真实世界中的数据/事件作出决策/预测。</p><p>根据<strong>使用算法</strong>的不同，机器学习的算法可包括：决策树、聚类、支持向量机、朴素贝叶斯等。</p><p>根据<strong>学习方法</strong>的不同，机器学习可以分为：监督学习、半监督学习、无监督学习、集成学习等。</p><h3 id="深度学习-Deep-Learning-：一种实现机器学习的方法"><a href="#深度学习-Deep-Learning-：一种实现机器学习的方法" class="headerlink" title="深度学习(Deep Learning)：一种实现机器学习的方法"></a>深度学习(Deep Learning)：一种实现机器学习的方法</h3><p>对机器学习来说，特征提取并不简单。特征工程往往需要大量的时间去优化，而此时，深度学习便可以自动学习特征和任务之间的关联，还能从简单特征中提取复杂的特征。深</p><p>度学习的概念源于人工神经网络的研究，含多隐层的多层感知器就是一种深度学习结构，深度学习通过组合低层特征形成更加抽象的高层表示属性类别或特征，以发现数据的分布式特征表示</p><h3 id="三者联系"><a href="#三者联系" class="headerlink" title="三者联系"></a>三者联系</h3><p><img src="https://img-blog.csdnimg.cn/20210110163343351.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1dlRG9uX3Q=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p><p>人工智能 &gt;&gt; 机器学习 &gt;&gt; 深度学习</p><h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>机器学习的任务个人理解是主要做分类与回归。分类和回归属于监督学习，之所以称 之为监督学习，是因为这类算法必须知道预测什么，即目标变量的分类信息。</p><p>与监督学习相对应的是无监督学习，此时数据没有类别信息，也不会给定目标值。对于离散型的遍历</p><h4 id="选择合适的算法："><a href="#选择合适的算法：" class="headerlink" title="选择合适的算法："></a>选择合适的算法：</h4><p>如果想要预测目标变量的值，则可以选择监督学习算法， 否则可以选择无监督学习算法。确定选择监督学习算法之后，需要进一步确定目标变量类型，如 果目标变量是离散型，如是/否、1/2/3、A/B/C或者红/黄/黑等，则可以选择分类器算法；如果目 标变量是连续型的数值，如0.0～100.00、999～999或者+∞～-∞等，则需要选择回归算法</p><blockquote><p> 离散型：分类器</p><p>连续性：逻辑回归</p></blockquote><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://blog.csdn.net/hohaizx/article/details/80584307" target="_blank" rel="noopener">机器学习简介</a></p><p><a href="https://www.zhihu.com/question/57770020" target="_blank" rel="noopener">知乎-人工智能-机器学习-深度学习的区别</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本系列文章源自于读《机器学习实战》这本书的学习笔记，用于记录学习内容，不断更新，，&lt;/p&gt;&lt;p&gt;21世纪互联网的发展，使得我们对于数据的收集更加容易，在这样大量数据的前提下，我们必须要挖掘出海量数据的价值，而机器学习的算法受到许多爱好技术人员的青睐，是因为这些算法在一定程度上可以帮助我们进行一些诸如回归预测，分类，识别等诸多场景的应用。&lt;/p&gt;
     
     </summary>
     
