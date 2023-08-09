@@ -2,9 +2,9 @@
 title: "NOAA-LSTM: A New Method of Dialect Identification"
 collection: publications
 permalink: /publication/2019-NOAA
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'This paper is about a new Method of Dialect Identification.'
 date: 2019-07-11
-venue: 'ICAIS 2019'
+venue: 'ICAIS'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-030-24274-9_2'
 citation: 'Ye, S., Li, C., Zhao, R., & Wu, W. (2019). NOAA-LSTM: A New Method of Dialect Identification. In Artificial Intelligence and Security: 5th International Conference, ICAIS 2019, New York, NY, USA, July 26-28, 2019, Proceedings, Part I 5 (pp. 16-26). Springer International Publishing.'
 ---
