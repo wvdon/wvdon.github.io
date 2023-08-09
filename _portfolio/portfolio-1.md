@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Portfolio item number 1:The-secret-to-getting-ahead"
+excerpt: "Short description of portfolio item number 1<br/><img src='https://quotefancy.com/media/wallpaper/1600x900/2001721-Mark-Twain-Quote-The-secret-to-getting-ahead-is-getting-started.jpg'>"
 collection: portfolio
 ---
 
