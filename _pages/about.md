@@ -20,5 +20,6 @@ And My detail CV is here [CV]()
 ## Education
 
 ME, Zhengzhou University (Biology and Medicine, 2021-now)
+
 BE, Zhengzhou University (Software Engineering, 2017-2021)
 
