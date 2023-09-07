@@ -17,6 +17,7 @@ In this site, you can know below that:
 - Blog Posts: Summary of Notes.
 
 And My detail CV is here [CV](./../files/CV_PHD_WeidongWu_24Fall.pdf)
+
 ## Education
 
 ME, Zhengzhou University (Biology and Medicine, 2021-now)
