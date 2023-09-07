@@ -8,13 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a responsible, passionate, and self-motivated student who studying at Zhengzhou University. My primary research interests revolve around Computational Biology and Deep Learning for Life Science.
+I am a responsible, passionate, and self-motivated student seeking admission to a PhD programme. My primary research interests revolve around Computational Biology and Deep Learning for Life Science.
 
-In this site, you can know below that:
-- Home: Home page about Me give a brief introduction.
-- Publications:  Some paper have been published.
-- Portfolio: Some unpublished Projects.
-- Blog Posts: Summary of Notes.
 
 And My detail CV is here [CV](./../files/CV_PHD_WeidongWu_24Fall.pdf)
 
