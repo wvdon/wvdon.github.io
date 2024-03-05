@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a responsible, passionate, and self-motivated student seeking admission to a PhD programme. My primary research interests revolve around Computational Biology and Deep Learning for Life Science.
+Hi,this is Weidong Wu. My primary research interests revolve around Computational Biology and Deep Learning for Life Science.
 
 
-And My detail CV is here [CV](./../files/CV_PHD_WeidongWu_24Fall.pdf)
+And My detail CV is here [CV](./../files/CV_WeidongWu.pdf)
 
 ## Education
 
