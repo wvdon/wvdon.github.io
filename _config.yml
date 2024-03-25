@@ -70,7 +70,7 @@ analytics:
 # Site Author
 author:
   name             : "Weidong Wu"
-  avatar           : "https://wvdon.github.io/files/citations.jpeg"
+  avatar           : "../../files/citations.jpeg"
   bio              : "Phd Student, Biomedical Informatics, The Ohio State University"
   location         : "China"
   googlescholar    : "https://scholar.google.com/citations?user=kKMLVpUAAAAJ&hl=en"
