@@ -11,8 +11,10 @@ redirect_from:
 Hi, this is Weidong Wu. My primary research interests revolve around single cell  and Deep Learning for Life Science.
 
 ## Areas of Focusing
-
-- scRNA-seq、scATAC-seq
-- Deep learning
--  evolution
+Biology:
+- Kidney disease 
+- Cell senescence 
+- Immunotherapy for lymphoma
+Computational: 
+- Cross species 
 
