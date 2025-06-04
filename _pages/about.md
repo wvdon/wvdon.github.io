@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, this is Weidong Wu. I am a PhD student at the Deoartment of Biomedical Informatics at The Ohio State University(OSU). My primary research interests revolve around single cell and Deep Learning for Life Science.
+Hi, this is Weidong Wu. I am a PhD student at the Department of Biomedical Informatics at The Ohio State University(OSU). My primary research interests revolve around single cell and Deep Learning for Life Science.
 
 ## Areas of Focusing
 
