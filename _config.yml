@@ -75,7 +75,8 @@ author:
   location         : "USA"
   googlescholar    : "https://scholar.google.com/citations?user=kKMLVpUAAAAJ&hl=en"
   email            : "wu.6655@osu.edu"
-
+  orcid            : "http://orcid.org/0009-0003-7500-1163"
+  
   uri              :
   bitbucket        :
   codepen          :
@@ -90,7 +91,6 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/0009-0003-7500-1163"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
