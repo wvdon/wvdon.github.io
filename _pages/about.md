@@ -22,6 +22,8 @@ Hi, this is Weidong Wu. I am a PhD student at the Department of Biomedical Infor
 
 **2025:**
 
+- Dong, H., Liang, C., Zhang, J., **Wu, W.**, Kumar, N., Liu, Z., Sun, Y., Liao, Z., Cheng, X., Yu, Y. et al., 2025. O-GlcNAc transferase plays dual antiviral roles by integrating innate immunity and lipid metabolism. *Nature Communications*, 16, pp.1-14.
+  - [paper](https://doi.org/10.1038/s41467-025-63085-y)
 - **Wu, W.**<sup>#</sup>, Liu, B.<sup>#</sup>, Zhang, Q.<sup>#</sup>, Zhang, X., Feng, P., Jia, Y. and Xue, X., 2025. Heterogeneity and efficacy of immunotherapy in multiple cancer: insights from a meta-analysis. Biological Procedures Online, 27(1), pp.1-14.
   - [paper](https://link.springer.com/article/10.1186/s12575-025-00274-5)
 - Wang, X., Duan, M., Su, P.L., Li, J., Krull, J., Jin, J., Chen, H., Sun, Y., **Wu, W.,** He, K. and Carpenter, R., 2025. Deep-learning-enabled multi-omics analyses for prediction of future metastasis in cancer. bioRxiv, pp.2025-05.
