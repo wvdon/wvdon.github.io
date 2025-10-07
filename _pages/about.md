@@ -14,13 +14,15 @@ Hi, this is Weidong Wu. I am a PhD student at the Department of Biomedical Infor
 
 | Biology | Computational |
 |---------|---------------|
-| Kidney disease | Deep learning |
+| Neuroscience | Deep learning |
 | Cross species | Bioinformatics |
-| Immunotherapy | |
+| Kidney | Software development|
 
 ## Publication
 
 **2025:**
+
+- Wang, Y., Ma, A., Song, N.J., Shannon, A.E., Amankwah, Y.S., Chen, X., **Wu, W.**, Wang, Z., Saadey, A.A., Yousif, A. and Ghosh, G., 2025. Proteotoxic stress response drives T cell exhaustion and immune evasion. *Nature*, pp.1-11.
 
 - Dong, H., Liang, C., Zhang, J., **Wu, W.**, Kumar, N., Liu, Z., Sun, Y., Liao, Z., Cheng, X., Yu, Y. et al., 2025. O-GlcNAc transferase plays dual antiviral roles by integrating innate immunity and lipid metabolism. *Nature Communications*, 16, pp.1-14.
   - [paper](https://doi.org/10.1038/s41467-025-63085-y)
