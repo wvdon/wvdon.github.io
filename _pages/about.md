@@ -24,7 +24,8 @@ Hi, this is Weidong Wu. I am a PhD student at the Department of Biomedical Infor
 
 - Wang, Y., Ma, A., Song, N.J., Shannon, A.E., Amankwah, Y.S., Chen, X., **Wu, W.**, Wang, Z., Saadey, A.A., Yousif, A. and Ghosh, G., 2025. Proteotoxic stress response drives T cell exhaustion and immune evasion. *Nature*, pp.1-11.
   - [paper](https://www.nature.com/articles/s41586-025-09539-1)
-
+- Miller, S.J., Zhong, H., **Wu, W.**, Cordova, A.M., Smith, M.E., Yashchenko, A., Li, Z., Jafree, D.J., Zimmerman, C.N., DeVette, C.I. and Do, V., 2025. A cross model spatial and single-cell atlas reveals the conserved involvement of osteopontin in polycystic kidney disease. bioRxiv, pp.2025-09.
+  - [paper](https://www.biorxiv.org/content/10.1101/2025.09.17.676846v1)
 - Dong, H., Liang, C., Zhang, J., **Wu, W.**, Kumar, N., Liu, Z., Sun, Y., Liao, Z., Cheng, X., Yu, Y. et al., 2025. O-GlcNAc transferase plays dual antiviral roles by integrating innate immunity and lipid metabolism. *Nature Communications*, 16, pp.1-14.
   - [paper](https://doi.org/10.1038/s41467-025-63085-y)
 - **Wu, W.**<sup>#</sup>, Liu, B.<sup>#</sup>, Zhang, Q.<sup>#</sup>, Zhang, X., Feng, P., Jia, Y. and Xue, X., 2025. Heterogeneity and efficacy of immunotherapy in multiple cancer: insights from a meta-analysis. Biological Procedures Online, 27(1), pp.1-14.
