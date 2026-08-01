@@ -11,12 +11,15 @@ Built with [Jekyll](https://jekyllrb.com/) and the [al-folio](https://github.com
 | Site-wide settings (name, URL, feature toggles) | `_config.yml` |
 | Homepage bio | `_pages/about.md` |
 | Publications | `_bibliography/papers.bib` |
-| CV content | `_data/cv.yml` |
-| News items on the homepage | `_news/*.md` |
-| Blog posts | `_posts/*.md` |
+| News items on the homepage and `/news/` | `_news/*.md` |
 | Social links | `_data/socials.yml` |
-| Accent colours | `_sass/_variables.scss` |
+| Accent colours | `assets/css/main.scss` |
 | Profile photo | `assets/img/prof_pic.png` |
+
+The site is deliberately kept to two nav entries, about and publications. The
+theme also ships CV and blog sections; they are unused here. To bring one back,
+restore `_pages/cv.md` + `_data/cv.yml` or `_pages/blog.md` + `_posts/` from git
+history and re-enable `latest_posts` in `_pages/about.md`.
 
 ## Adding a publication
 

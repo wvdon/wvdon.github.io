@@ -324,9 +324,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-# only list tags that at least one post actually uses — jekyll-archives builds no
-# archive page for an unused tag, so listing one produces a 404 link
-display_tags: ["bioinformatics", "atac-seq", "rna-seq"] # these tags will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

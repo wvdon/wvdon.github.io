@@ -21,9 +21,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
 I am a PhD student in the Department of Biomedical Informatics at **The Ohio State University**. My work sits between computational biology and machine learning: I build and apply methods for single-cell and multi-omics data to understand how cells behave in disease.
