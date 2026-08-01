@@ -14,7 +14,7 @@ Built with [Jekyll](https://jekyllrb.com/) and the [al-folio](https://github.com
 | News items on the homepage and `/news/` | `_news/*.md` |
 | Social links | `_data/socials.yml` |
 | Accent colours | `assets/css/main.scss` |
-| Profile photo | `assets/img/prof_pic.png` |
+| Profile photo | `assets/img/prof_pic.jpg` |
 
 The site is deliberately kept to two nav entries, about and publications. The
 theme also ships CV and blog sections; they are unused here. To bring one back,
