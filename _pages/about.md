@@ -24,7 +24,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a PhD student in the Department of Biomedical Informatics at **The Ohio State University**, advised by [Qin Ma](https://scholar.google.com/citations?user=2btCBicAAAAJ) and [Anjun Ma](https://scholar.google.com/citations?user=YmUcOjoAAAAJ). My work sits between computational biology and machine learning: I build and apply methods for single-cell and multi-omics data to understand how cells behave in disease.
+I am a PhD student in the Department of Biomedical Informatics at **The Ohio State University**, advised by [Dr. Qin Ma](https://scholar.google.com/citations?user=2btCBicAAAAJ) and [Dr. Anjun Ma](https://scholar.google.com/citations?user=YmUcOjoAAAAJ). My work sits between computational biology and machine learning: I build and apply methods for single-cell and multi-omics data to understand how cells behave in disease.
 
 Recent projects span a cross-species single-cell atlas of polycystic kidney disease, T cell exhaustion in tumors, and antiviral innate immunity. I am generally interested in representation learning for biological sequences and cells, cross-species and cross-model comparison, and making computational tools that other biologists can actually use.
 
