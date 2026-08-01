@@ -1,0 +1,55 @@
+---
+# Local copy of the theme's entry stylesheet.
+# Identical to al_folio_core's assets/css/main.scss, plus the accent-colour
+# block at the end. Shadowing _sass/_variables.scss does not work: the gem's
+# own copy wins on the Sass load path, so the tokens are overridden here as
+# plain custom properties instead.
+---
+
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* -----------------------------------------------------------------------------
+   Accent colour
+   Upstream uses purple in light mode and cyan in dark mode; this site uses a
+   scarlet / coral pair instead.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --global-theme-color: #b3122e;
+  --global-hover-color: #b3122e;
+  --global-code-bg-color: rgba(179, 18, 46, 0.05);
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #ff6f61;
+  --global-hover-color: #ff6f61;
+}
